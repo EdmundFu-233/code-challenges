@@ -1,6 +1,5 @@
 """Challenge 005"""
 def solve(data):
-    """Solve challenge 005."""
     result = []
     for item in data:
         result.append(process(item))
@@ -11,7 +10,7 @@ def process(x):
 
 def test():
     assert solve([1, 2, 3]) == [2, 4, 6]
-    print(f"Challenge 005 passed!")
+    print("Challenge 005 passed!")
 
 if __name__ == "__main__":
     test()
